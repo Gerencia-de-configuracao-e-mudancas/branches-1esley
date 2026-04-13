@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: 20px;
+}
+
+video {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border: 2px solid #4b4a4a7e;
+    border-radius: 8px;
+}
+
+.buttons {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+}
+.buttons button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4b4a4a7e;
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+}   
